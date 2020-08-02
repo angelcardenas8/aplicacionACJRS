@@ -1,7 +1,8 @@
 {
   "name": "Inventario",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
