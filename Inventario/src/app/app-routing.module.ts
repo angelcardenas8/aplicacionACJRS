@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'metodopago',
     loadChildren: () => import('./metodopago/metodopago.module').then( m => m.MetodopagoPageModule)
   },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
 ];
 
 @NgModule({
