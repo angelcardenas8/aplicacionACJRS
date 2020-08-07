@@ -9,10 +9,12 @@
         src="https://scontent.fcvj2-1.fna.fbcdn.net/v/t1.0-9/s960x960/50805288_2346825172042558_553625862889537536_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeHhA3YIjUGoC1AM5ORrmbSrApu6szYmfkECm7qzNiZ-QSm0698m3pxZhdzo5Jbs5Rmkmd_8OVanVzZ2QYPBsBs8&_nc_ohc=9VEuNI9Opo4AX8BilGQ&_nc_ht=scontent.fcvj2-1.fna&_nc_tp=7&oh=cbd06c4be6d19be998d335ff85c1a83e&oe=5F4AAAFD">
     </ion-avatar>
     <ion-button menu="main-menu" fill="clear" color="red">
-      <ion-icon slot="icon-only" name="menu"></ion-icon>
+      <ion-icon slot="icon-only" name="menu" style="color: #ff416a;"></ion-icon>
     </ion-button>
   </ion-item>
-  <ion-item lines="none" class="animate__animated animate__slideInDown">
+  <ion-item lines="none" class="animate__animated animate__slideInDown" style="border-radius: 0% 0% 8% 8%; -webkit-box-shadow: 1px 20px 7px 1px rgba(252, 40, 40, 0.08);
+  -moz-box-shadow: 1px 20px 7px 1px rgba(0,0,0,0.08);
+  box-shadow: 1px 20px 7px 1px rgba(0,0,0,0.08);">
     <ion-label>
       <h2>Bienvenido, Roberto Samano</h2><br>
       <ion-searchbar></ion-searchbar>
@@ -81,8 +83,8 @@
                   </ion-img>
                 </div>
 
-                <ion-card-title class="title">Some Awesome Dish Title</ion-card-title>
-                <ion-card-subtitle>Some description here</ion-card-subtitle>
+                <ion-card-title class="title">Platillo vegano</ion-card-title>
+                <ion-card-subtitle>Alimentos 100% veganos recomendados</ion-card-subtitle>
                 <ion-card-subtitle>
                   <ion-icon name="star"></ion-icon>
                   <ion-icon name="star"></ion-icon>
@@ -104,8 +106,8 @@
                   </ion-img>
                 </div>
 
-                <ion-card-title class="title">Some Awesome Dish Title</ion-card-title>
-                <ion-card-subtitle>Some description here</ion-card-subtitle>
+                <ion-card-title class="title">Pastel de carne</ion-card-title>
+                <ion-card-subtitle>Delicioso pastel de carne de res</ion-card-subtitle>
                 <ion-card-subtitle>
                   <ion-icon name="star"></ion-icon>
                   <ion-icon name="star"></ion-icon>
@@ -222,9 +224,9 @@
           <ion-slide>
             <ion-card class="category" color="danger">
               <ion-card-header class="ion-text-center">
-                <ion-icon src="assets/dish.svg"></ion-icon>
+                <ion-icon src="assets/supplier.svg"></ion-icon>
                 <ion-card-title>Inventario</ion-card-title>
-                <ion-card-subtitle>Something here</ion-card-subtitle>
+                <ion-card-subtitle>Registrar</ion-card-subtitle>
               </ion-card-header>
             </ion-card>
           </ion-slide>
@@ -232,9 +234,9 @@
           <ion-slide>
             <ion-card class="category" color="primary">
               <ion-card-header class="ion-text-center">
-                <ion-icon src="assets/cocktail.svg"></ion-icon>
-                <ion-card-title>Mis recetas</ion-card-title>
-                <ion-card-subtitle>Something here</ion-card-subtitle>
+                <ion-icon src="assets/recipe.svg"></ion-icon>
+                <ion-card-title>Recetas</ion-card-title>
+                <ion-card-subtitle>Consultar</ion-card-subtitle>
               </ion-card-header>
             </ion-card>
           </ion-slide>
@@ -242,9 +244,9 @@
           <ion-slide>
             <ion-card class="category" color="warning">
               <ion-card-header class="ion-text-center">
-                <ion-icon src="assets/burger.svg"></ion-icon>
-                <ion-card-title>Burger</ion-card-title>
-                <ion-card-subtitle>Something here</ion-card-subtitle>
+                <ion-icon src="assets/provider.svg"></ion-icon>
+                <ion-card-title>Provedores</ion-card-title>
+                <ion-card-subtitle>Contactar</ion-card-subtitle>
               </ion-card-header>
             </ion-card>
           </ion-slide>
@@ -252,9 +254,9 @@
           <ion-slide>
             <ion-card class="category" color="success">
               <ion-card-header class="ion-text-center">
-                <ion-icon src="assets/pizza.svg"></ion-icon>
-                <ion-card-title>Pizza</ion-card-title>
-                <ion-card-subtitle>Something here</ion-card-subtitle>
+                <ion-icon src="assets/supplier.svg"></ion-icon>
+                <ion-card-title>Inventario</ion-card-title>
+                <ion-card-subtitle>Registrar</ion-card-subtitle>
               </ion-card-header>
             </ion-card>
           </ion-slide>
@@ -262,19 +264,9 @@
           <ion-slide>
             <ion-card class="category" color="tertiary">
               <ion-card-header class="ion-text-center">
-                <ion-icon src="assets/taco.svg"></ion-icon>
-                <ion-card-title>Mexican</ion-card-title>
-                <ion-card-subtitle>Something here</ion-card-subtitle>
-              </ion-card-header>
-            </ion-card>
-          </ion-slide>
-
-          <ion-slide>
-            <ion-card class="category" color="danger">
-              <ion-card-header class="ion-text-center">
-                <ion-icon src="assets/cookies.svg"></ion-icon>
-                <ion-card-title>Dessert</ion-card-title>
-                <ion-card-subtitle>Something here</ion-card-subtitle>
+                <ion-icon src="assets/recipe.svg"></ion-icon>
+                <ion-card-title>Recetas</ion-card-title>
+                <ion-card-subtitle>Consultar</ion-card-subtitle>
               </ion-card-header>
             </ion-card>
           </ion-slide>
@@ -282,12 +274,14 @@
           <ion-slide>
             <ion-card class="category" color="secondary">
               <ion-card-header class="ion-text-center">
-                <ion-icon src="assets/noodle.svg"></ion-icon>
-                <ion-card-title>Noodle</ion-card-title>
-                <ion-card-subtitle>Something here</ion-card-subtitle>
+                <ion-icon src="assets/provider.svg"></ion-icon>
+                <ion-card-title>Provedores</ion-card-title>
+                <ion-card-subtitle>Contactar</ion-card-subtitle>
               </ion-card-header>
             </ion-card>
           </ion-slide>
+
+          
 
 
 
@@ -402,12 +396,12 @@
     <ion-row>
       <ion-col size="6" class="animate__animated animate__slideInUp">
         <ion-badge color="light" class="ion-margin-end">
-          Angel Cardenas
+          Powered by
         </ion-badge>
       </ion-col>
       <ion-col size="6" class="ion-text-end">
         <ion-badge color="light">
-          angelcardjaimes88@gmail.com
+          Innovaft 2020
         </ion-badge>
       </ion-col>
     </ion-row>

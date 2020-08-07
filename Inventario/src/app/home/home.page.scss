@@ -1,5 +1,6 @@
 ion-item {
-  --background: rgba(248, 248, 250, .96);
+  --background: rgb(248, 248, 250);
+  
 
   h2 {
     font-weight: bold;
@@ -8,6 +9,7 @@ ion-item {
   }
 
 }
+
 
 ion-content {
   --background: #f8f8fa;
@@ -68,7 +70,7 @@ ion-card-header {
   }
 
   ion-card-title {
-    font-size: 22px;
+    font-size: 15px;
     font-weight: bolder;
   }
 }
