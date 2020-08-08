@@ -1,0 +1,49 @@
+<ion-menu menuId="main-menu" content-id="main">
+  <ion-content>
+    <div class="menu-header-bg"></div>
+    <div class="header-content">
+      <img
+        src="https://scontent.fcvj2-1.fna.fbcdn.net/v/t1.0-9/s960x960/50805288_2346825172042558_553625862889537536_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeHhA3YIjUGoC1AM5ORrmbSrApu6szYmfkECm7qzNiZ-QSm0698m3pxZhdzo5Jbs5Rmkmd_8OVanVzZ2QYPBsBs8&_nc_ohc=9VEuNI9Opo4AX8BilGQ&_nc_ht=scontent.fcvj2-1.fna&_nc_tp=7&oh=cbd06c4be6d19be998d335ff85c1a83e&oe=5F4AAAFD"
+        alt="">
+      <ion-label>
+        <h2>Angel Cardenas</h2>
+        <p>Ingeniero en sistemas</p>
+      </ion-label>
+    </div>
+ 
+    <div class="action-button"> 
+  
+      <ion-button>
+        <ion-icon slot="start" name="add"></ion-icon>Crear una receta
+      </ion-button>
+    </div>
+    
+      <ion-list class="menu-items" lines="none">
+      <ion-menu-toggle> 
+        <ion-item class="active" button (click)="home()">
+          <ion-icon name="pie-chart-outline"></ion-icon>Inicio
+        </ion-item>
+        <ion-item>
+          <ion-icon name="pie-chart-outline"></ion-icon>Mis recetas
+        </ion-item>
+        <ion-item>
+          <ion-icon name="pie-chart-outline"></ion-icon>Crear inventario
+        </ion-item>
+        <ion-item>
+          <ion-icon name="pie-chart-outline"></ion-icon>Agregar bebidas
+        </ion-item>
+        <ion-item  (click)="pago()">
+          <ion-icon name="pie-chart-outline" ></ion-icon>Pago
+        </ion-item>
+        <ion-item >
+          <ion-icon name="pie-chart-outline"></ion-icon>Inicio
+        </ion-item>
+        <ion-item>
+          <p>Activar modo noche</p>
+          <ion-toggle color="primary"></ion-toggle>
+        </ion-item>
+     </ion-menu-toggle>
+      </ion-list>
+    
+  </ion-content>
+</ion-menu>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuController } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -17,6 +18,12 @@ export class HomePage {
     slidesPerView: 2.5,
   };
 
-  constructor() {}
+  constructor(private menuCont: MenuController) {}
+
+  clickMenu(){
+    this.menuCont.toggle();
+
+  }
+
 
 }
