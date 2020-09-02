@@ -1,0 +1,79 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+<ion-header class="ion-no-border">
+  <ion-item lines="none">
+
+    <ion-button menu="main-menu" fill="clear" color="red" (click)="clickMenu()">
+      <ion-icon name="arrow-back-outline" style="color: #ff416a;"></ion-icon>
+    </ion-button>
+
+  </ion-item>
+
+</ion-header>
+<ion-content [fullscreen]="true">
+  <p style="font-size: 16px; color: #ff416a; text-align: center;">Agregar receta</p><br><br>
+
+  <ion-list class="background-input">
+
+    <ion-item>
+      <ion-label position="floating">Nombre de la receta</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label position="floating">Descripcion breve</ion-label>
+  <ion-textarea></ion-textarea>
+    </ion-item>
+    <br>
+    <ion-button expand="block" fill="outline">Agregar ingredientes</ion-button>
+    <br>
+    
+    
+
+    
+  </ion-list>
+  <ion-grid class="ion-no-padding">
+    <ion-row>
+      <ion-col size="12" class="animate__animated animate__slideInUp">
+        <ion-slides>
+        <ion-slide>
+          <ion-chip>
+            <ion-avatar>
+              <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+            </ion-avatar>
+            <ion-label>Carne cesina 200gr</ion-label>
+            <ion-icon name="close-circle"></ion-icon>
+            
+          </ion-chip>
+          <ion-chip>
+            <ion-avatar>
+              <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+            </ion-avatar>
+            <ion-label>Carne cesina 200gr</ion-label>
+            <ion-icon name="close-circle"></ion-icon>
+            
+          </ion-chip>
+        </ion-slide>
+        <ion-slide>
+          <ion-chip>
+            <ion-avatar>
+              <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+            </ion-avatar>
+            <ion-label>Carne cesina 200gr</ion-label>
+            <ion-icon name="close-circle"></ion-icon>
+            
+          </ion-chip>
+          <ion-chip>
+            <ion-avatar>
+              <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+            </ion-avatar>
+            <ion-label>Carne cesina 200gr</ion-label>
+            <ion-icon name="close-circle"></ion-icon>
+            
+          </ion-chip>
+          
+        </ion-slide>
+      </ion-slides>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

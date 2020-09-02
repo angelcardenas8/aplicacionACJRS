@@ -1,32 +1,48 @@
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-  />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 <ion-header class="ion-no-border">
   <ion-item lines="none" class="animate__animated animate__slideInDown">
-    <ion-avatar slot="end">
-      <img
-        src="https://scontent.fcvj2-1.fna.fbcdn.net/v/t1.0-9/s960x960/50805288_2346825172042558_553625862889537536_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeHhA3YIjUGoC1AM5ORrmbSrApu6szYmfkECm7qzNiZ-QSm0698m3pxZhdzo5Jbs5Rmkmd_8OVanVzZ2QYPBsBs8&_nc_ohc=9VEuNI9Opo4AX8BilGQ&_nc_ht=scontent.fcvj2-1.fna&_nc_tp=7&oh=cbd06c4be6d19be998d335ff85c1a83e&oe=5F4AAAFD">
+    <ion-avatar slot="end" style="width: 25px; height: 25px;">
+      <img src="assets/notificacion.svg">
     </ion-avatar>
-
+    
     <ion-button menu="main-menu" fill="clear" color="red" (click)="clickMenu()">
       <ion-icon slot="icon-only" name="menu" style="color: #ff416a;"></ion-icon>
+      
     </ion-button>
+    <p style="font-size: 13px; color: #ff416a; margin-left: 15px; text-align: left;">Hola Angel<br>Nivel: Chef ejecutivo ></p>
     
   </ion-item>
-  <ion-item lines="none" class="animate__animated animate__slideInDown" style="border-radius: 0% 0% 8% 8%; -webkit-box-shadow: 1px 20px 7px 1px rgba(252, 40, 40, 0.08);
+  <ion-item lines="none" class="animate__animated animate__slideInDown" style="border-radius: 0% 0% 5% 5%; -webkit-box-shadow: 1px 20px 7px 1px rgba(252, 40, 40, 0.08);
   -moz-box-shadow: 1px 20px 7px 1px rgba(0,0,0,0.08);
   box-shadow: 1px 20px 7px 1px rgba(0,0,0,0.08);">
-    <ion-label>
-      <h2>Bienvenido, Roberto Samano</h2><br>
-      <ion-searchbar></ion-searchbar>
-    </ion-label>
-  </ion-item>
+    
+    <ion-grid style="font-size: 10px; font-family: Arial; text-align: center; color: #ff416a;">
+      <ion-row>
+        <ion-col>
+          <img style="width: 40%;height: 40%;" src="assets/anadir.svg"><br>
+          Crear<br>receta
+        </ion-col>
+        <ion-col>
+          <img style="width: 40%;height: 40%;" src="assets/cocina.svg"><br>
+          <div class="burbuja">Agregar<br>mobiliario</div>
+        </ion-col>
+        <ion-col>
+          <img style="width: 40%;height: 40%;" src="assets/sabor.svg"><br>
+          <div class="burbuja">Calculo <br> de porciones</div>
+        </ion-col>
+        <ion-col>
+          <img style="width: 40%;height: 40%;" src="assets/virus.svg"><br>
+          <div class="burbuja">Donar<br>COVID-19</div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </ion-item> 
 </ion-header>
 
-<ion-content [fullscreen]="true" >
-
-  <div class="ion-padding wrapper" >
+<ion-content [fullscreen]="true">
+  
+  <div class="ion-padding wrapper">
 
 
 
@@ -58,7 +74,7 @@
 
                 <div class="img-wrapper">
                   <ion-img
-                    src="https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    src="https://images.pexels.com/photos/793759/pexels-photo-793759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
                   </ion-img>
                 </div>
 
@@ -127,7 +143,7 @@
 
                 <div class="img-wrapper">
                   <ion-img
-                    src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    src="https://images.pexels.com/photos/793759/pexels-photo-793759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
                   </ion-img>
                 </div>
 
@@ -283,7 +299,7 @@
             </ion-card>
           </ion-slide>
 
-          
+
 
 
 

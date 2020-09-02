@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HomePage } from '../home/home.page';
-import { NavController } from '@ionic/angular';
 import { Router } from '@angular/router';
+import { NavController } from '@ionic/angular';
 
  
 @Component({
@@ -33,11 +33,11 @@ aqui2(){
 } 
 
 home(){
-  this.router.navigate(['/home']);
+  this.nav.navigateRoot('/home');
 }
   
   
-
+  
   ngOnInit() {
     
   }
